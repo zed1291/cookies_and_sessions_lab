@@ -7,4 +7,8 @@ class ApplicationController < ActionController::Base
   def cart
     session[:cart] ||= []
   end
+
+  def testeroo
+    session[:testeroo] = []
+  end
 end
